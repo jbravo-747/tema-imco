@@ -1,0 +1,50 @@
+/* iCheck plugin Minimal skin, blue
+----------------------------------- */
+.icheckbox,
+.iradio {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    background: url(../../../images/radiobtns.svg) no-repeat;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.icheckbox {
+    background-position: 0 0;
+}
+
+    .icheckbox.checked {
+        background-position: -16px 0;
+    }
+
+
+.iradio {
+    background-position: 0 0;
+}
+
+    .iradio.checked {
+        background-position: -16px 0;
+    }
+    .iradio.disabled {
+        background-position: -160px 0;
+        cursor: default;
+    }
+    .iradio.checked.disabled {
+        background-position: -180px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox,
+    .iradio {
+        /* background-image: url(gray.png); */
+        /* -webkit-background-size: 200px 20px; */
+        /* background-size: 200px 20px; */
+    }
+}

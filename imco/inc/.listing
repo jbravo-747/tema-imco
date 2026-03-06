@@ -1,0 +1,6 @@
+drwxrwxr-x   2 imcomx   imcomxg      4096 Feb 27  2020 .
+drwxrwxr-x  11 imcomx   imcomxg      4096 Dec  2 11:45 ..
+-rw-rw-r--   1 imcomx   imcomxg      2165 Aug 24  2020 back-compat.php
+-rw-rw-r--   1 imcomx   imcomxg      9431 Aug 24  2020 custom-header.php
+-rw-rw-r--   1 imcomx   imcomxg     21461 Aug 24  2020 customizer.php
+-rw-rw-r--   1 imcomx   imcomxg      8304 Aug 24  2020 template-tags.php

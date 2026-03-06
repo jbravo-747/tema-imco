@@ -1,0 +1,181 @@
+﻿#menu-comments, #menu-dashboard, #menu-tools {
+ display: block;
+ }
+#toplevel_page_edit-post_type-acf, #toplevel_page_toolset-dashboard,#toplevel_page_Wordfence {
+ display: block;
+ }
+.content_permissions_list_container {
+	background: white;
+	max-width: 800px;
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+.content_permissions_list_container .content_permissions_list {
+	-moz-column-count: 3;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 20px;
+	column-count: 3;
+	column-gap: 20px;
+}
+.content_permissions_list_container .content_permissions_list .content_permissions_item {
+	padding: 10px 0px;
+}
+.content_permissions_list_container .content_permissions_list .content_permissions_item label {
+}
+.content_permissions_list_container .content_permissions_list .content_permissions_item label input {
+}
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap, #wpadminbar {
+	background-color: #233746;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+	background: #00BAD2;
+}
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top > a:focus, #adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu li:hover div.wp-menu-image:before {
+	color: #00BAD2;;
+}
+#adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top, #adminmenu li > a.menu-top:focus {
+	color: #00BAD2;;
+}
+.wrap .add-new-h2:hover, .wrap .page-title-action:hover {
+	border-color: #00BAD2;
+	background: #00BAD2;
+	color: #fff;
+}
+.wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active {
+	color: #00BAD2;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+	background: #233746;
+}
+.wp-core-ui .button {
+	background: #00BAD2;
+	border-color: #00BAD2;
+	color: #fff;
+	text-decoration: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none
+}
+#post-body #visibility:before, #post-body .misc-pub-post-status:before, #post-body .misc-pub-revisions:before, .curtime #timestamp:before, span.wp-media-buttons-icon:before {
+	color: #233746;
+}
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button-secondary:hover, .wp-core-ui .button.focus, .wp-core-ui .button.hover, .wp-core-ui .button:focus, .wp-core-ui .button:hover {
+	background: #233746;
+	color: white;
+}
+.wp-core-ui .button:hover span.wp-media-buttons-icon:before {
+	color: #00BAD2;
+}
+
+#wp-admin-bar-root-default {
+}
+.postbox {
+
+	border: 1px solid #233746;
+}
+.multi-language-field input, .multi-language-field input:focus, .multi-language-field textarea, .multi-language-field textarea:focus, input[type=text], input[type=search], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea {
+	border: 1px solid #233746;
+}
+.acf_postbox > .inside > .field {
+	border-top: #233746 solid 1px;
+}
+.postbox .hndle, .stuffbox .hndle {
+	border-bottom: 1px solid #233746;
+}
+
+a {
+	color: #00BAD2;
+}
+input[type=checkbox]:checked:before {
+
+	color: #00BAD2;
+}
+#wpfooter {
+	display: none;
+}
+#wpfooter_fs {
+	/* background-color: #233746;
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	padding-left: 160px;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px 20px 10px 160px;
+	z-index: 200; */
+}
+#wpfooter_fs label {
+	/* color: white;
+	display: inline-block;
+	margin-right: 10px; */
+}
+.logoandname {
+	display: inline-block;
+	max-height: 40px;
+	position: relative;
+	vertical-align: middle;
+	float: right;
+	text-decoration: none;
+}
+.logoandname .cursor_container {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.logoandname .cursor_container img#cursor {
+	position: absolute;
+}
+.logoandname .cursor_container img {
+	height: 42px;
+	display: block;
+	top: 0;
+}
+#adminmenu {
+	margin: 0;
+}
+#adminmenu li.wp-menu-separator {
+	display: none;
+}
+body.login {
+	background-color: #233746;
+}
+.login #backtoblog a, .login #nav a {
+	color: #00BAD2;
+}
+
+.login h1 a {
+
+	background-image: none, url(http://federicosalort.com/wordpress-logo.png);
+}
+.login_fs {
+	display: block;
+	height: 79px;
+	text-align: center;
+}
+.login_fs .logoandname {
+	display: inline-block;
+	float: none;
+	text-decoration: none;
+}
+.login_fs label {
+
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.acf-button:hover, .acf-button {
+	background: #00BAD2;
+	border-color: #00BAD2;
+}
+@media screen and (max-width: 767px) {
+	#wpfooter_fs{
+		/* padding-left:20px; */
+	}
+}

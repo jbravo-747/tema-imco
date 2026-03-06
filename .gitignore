@@ -1,0 +1,32 @@
+# Variables de entorno (contienen passwords)
+.env
+
+# Uploads de WordPress (archivos de medios, muy pesados para git)
+imco/uploads/
+
+# Archivos de cache generados
+imco/cache/
+*.log
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Volúmenes de Docker (si se crean localmente)
+db_data/
+wordpress_data/
+
+# Backups y dumps de BD
+*.sql
+*.sql.gz
+
+# Archivos comprimidos
+*.zip
+*.tar.gz

@@ -1,0 +1,44 @@
+.main_menu .main_menu_wrapper_container .main_menu_wrapper nav ul li a.mobile_hover:after{
+    width:0;
+}
+.footer_menu_item .footer_menu_item .dropdown_title.mobile_hover:after{
+    width:0;
+}
+
+.btn.mobile_hover:after{
+	opacity: 1;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+.team_item_downloads .download_btn_container a.mobile_hover {
+    background-color: white;
+    color: #D84A5F;
+}
+.about_section .about_submenu nav ul li a.mobile_hover:after{
+	width:100%;
+}
+.children_menu ul li a.mobile_hover {
+	color: #363636;
+		border-color: #363636
+}
+.custom_item_downloads  .custom_download_btn_container .custom_download_btn.mobile_hover{
+background: #d84a5f;
+color:white
+}
+.post_pagination .page-numbers.mobile_hover{
+    background: #00BFDA;
+}
+.charts_container .charts_container_wrapper .charts_container_tabs .chart_tab.mobile_hover{
+		    background: #00BFDA;
+	      color: white;
+}
+.section_side_content .post_item.mobile_hover .post_item_wrapper .post_item_content .post_text_content_container .post_text_content_title,
+.section_side_content .post_item.mobile_hover .post_item_wrapper .post_item_content .post_text_content_container .post_text_content_title span{
+  text-decoration: underline;
+  -webkit-text-decoration-color: #00BFDA;
+  text-decoration-color: #00BFDA;
+}
+.btn.event_btn.mobile_hover{
+	background:transparent;
+	color: #da4a5f;
+}
