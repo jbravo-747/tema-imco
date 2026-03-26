@@ -97,6 +97,13 @@ $color = get_post_meta($post->ID,'area_color',true);
 					<?php 
 					}
 					get_custom_footer_banner();?>
+<?php
+// DEV MOCK: Incluir datos de prueba para Administración Pública
+// Eliminar o comentar esta línea en producción
+if ( defined('WP_DEBUG') && WP_DEBUG && $post->post_name === 'administracion-publica' ) {
+	    include_once( get_stylesheet_directory() . '/templates/template_mock_administracion_publica.php' );
+}
+	?>
 					
       </div>
     </div>
